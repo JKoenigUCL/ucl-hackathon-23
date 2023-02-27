@@ -20,5 +20,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "vite": "^4.1.3"
-  }
+  },
+  "postinstall": "npm run build",
+  "start": "node /src/main.js"
 }
+
